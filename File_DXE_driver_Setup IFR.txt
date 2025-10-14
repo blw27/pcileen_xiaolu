@@ -1,0 +1,569 @@
+                                UEFI Protocol Detected
+--------------------------------------------------------------------------------
+
+
+                                String Packages
+--------------------------------------------------------------------------------
+Offset:		Language:
+--------------------------------------------------------------------------------
+0xA055E		en-US (0x0)
+0x15E8C2		fr-FR (0x1)
+0x183242		de-DE (0x2)
+0x192EF7		es-ES (0x3)
+0x1A3E75		ru-RU (0x4)
+0x1B13F6		ko-KR (0x5)
+
+
+                                   Form Sets
+--------------------------------------------------------------------------------
+Offset:		Title:
+--------------------------------------------------------------------------------
+0x5BC04		Setup (0x7 from string package 0x0)
+
+
+                         Internal Forms Representation
+--------------------------------------------------------------------------------
+Offset:		Instruction:
+--------------------------------------------------------------------------------
+0x5BC08 Form Set: Setup [7B59104A-C00D-4158-87FF-F04D6396A915], ClassGuid0 [93039971-8545-4B04-B45E-32EB8326040E] {0E A7 4A 10 59 7B 0D C0 58 41 87 FF F0 4D 63 96 A9 15 07 00 08 00 01 71 99 03 93 45 85 04 4B B4 5E 32 EB 83 26 04 0E}
+0x5BC2F 	Guid: [0F0B1735-87A0-4193-B266-538C38AF48CE] {5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 03 01 00}
+0x5BC44 	Guid: [0F0B1735-87A0-4193-B266-538C38AF48CE] {5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 04 00 00}
+0x5BC59 	Default Store: , DefaultId: 0x0 {5C 06 02 00 00 00}
+0x5BC5F 	Default Store: , DefaultId: 0x1 {5C 06 02 00 01 00}
+0x5BC65 	VarStore: VarStoreId: 0xF101 [EC87D643-EBA4-4BB5-A1E5-3F3E36B20DA9], Size: 0xD2F, Name: Setup {24 1C 43 D6 87 EC A4 EB B5 4B A1 E5 3F 3E 36 B2 0D A9 01 F1 2F 0D 53 65 74 75 70 00}
+0x5BC81 	VarStore: VarStoreId: 0xF009 [8BE4DF61-93CA-11D2-AA0D-00E098032B8C], Size: 0x2, Name: PlatformLang {24 23 61 DF E4 8B CA 93 D2 11 AA 0D 00 E0 98 03 2B 8C 09 F0 02 00 50 6C 61 74 66 6F 72 6D 4C 61 6E 67 00}
+0x5BCA4 	VarStore: VarStoreId: 0xF00A [8BE4DF61-93CA-11D2-AA0D-00E098032B8C], Size: 0x2, Name: PlatformLangCodes {24 28 61 DF E4 8B CA 93 D2 11 AA 0D 00 E0 98 03 2B 8C 0A F0 02 00 50 6C 61 74 66 6F 72 6D 4C 61 6E 67 43 6F 64 65 73 00}
+0x5BCCC 	VarStore: VarStoreId: 0xF000 [E770BB69-BCB4-4D04-9E97-23FF9456FEAC], Size: 0x1, Name: SystemAccess {24 23 69 BB 70 E7 B4 BC 04 4D 9E 97 23 FF 94 56 FE AC 00 F0 01 00 53 79 73 74 65 6D 41 63 63 65 73 73 00}
+0x5BCEF 	VarStore: VarStoreId: 0xF002 [9CF0F18E-7C7D-49DE-B5AA-BBBAD6B21007], Size: 0x2, Name: AMICallback {24 22 8E F1 F0 9C 7D 7C DE 49 B5 AA BB BA D6 B2 10 07 02 F0 02 00 41 4D 49 43 61 6C 6C 62 61 63 6B 00}
+0x5BD11 	VarStore: VarStoreId: 0xF013 [C811FA38-42C8-4579-A9BB-60E94EDDFB34], Size: 0x51, Name: AMITSESetup {24 22 38 FA 11 C8 C8 42 79 45 A9 BB 60 E9 4E DD FB 34 13 F0 51 00 41 4D 49 54 53 45 53 65 74 75 70 00}
+0x5BD33 	VarStore: VarStoreId: 0xF003 [B4909CF3-7B93-4751-9BD8-5BA8220B9BB2], Size: 0x2, Name: BootManager {24 22 F3 9C 90 B4 93 7B 51 47 9B D8 5B A8 22 0B 9B B2 03 F0 02 00 42 6F 6F 74 4D 61 6E 61 67 65 72 00}
+0x5BD55 	VarStore: VarStoreId: 0xF005 [8BE4DF61-93CA-11D2-AA0D-00E098032B8C], Size: 0x2, Name: Timeout {24 1E 61 DF E4 8B CA 93 D2 11 AA 0D 00 E0 98 03 2B 8C 05 F0 02 00 54 69 6D 65 6F 75 74 00}
+0x5BD73 	VarStore: VarStoreId: 0xF006 [8BE4DF61-93CA-11D2-AA0D-00E098032B8C], Size: 0x2, Name: BootOrder {24 20 61 DF E4 8B CA 93 D2 11 AA 0D 00 E0 98 03 2B 8C 06 F0 02 00 42 6F 6F 74 4F 72 64 65 72 00}
+0x5BD93 	VarStore: VarStoreId: 0xF00D [19D96D3F-6A6A-47D2-B195-7B2432DA3BE2], Size: 0x11C, Name: AddBootOption {24 24 3F 6D D9 19 6A 6A D2 47 B1 95 7B 24 32 DA 3B E2 0D F0 1C 01 41 64 64 42 6F 6F 74 4F 70 74 69 6F 6E 00}
+0x5BDB7 	VarStore: VarStoreId: 0xF00E [F6C73719-F34C-479C-B32F-277FCBBCFE4F], Size: 0x2, Name: DelBootOption {24 24 19 37 C7 F6 4C F3 9C 47 B3 2F 27 7F CB BC FE 4F 0E F0 02 00 44 65 6C 42 6F 6F 74 4F 70 74 69 6F 6E 00}
+0x5BDDB 	VarStore: VarStoreId: 0xF007 [A56074DB-65FE-45F7-BD21-2D2BDD8E9652], Size: 0x2, Name: LegacyDev {24 20 DB 74 60 A5 FE 65 F7 45 BD 21 2D 2B DD 8E 96 52 07 F0 02 00 4C 65 67 61 63 79 44 65 76 00}
+0x5BDFB 	VarStore: VarStoreId: 0xF016 [A56074DB-65FE-45F7-BD21-2D2BDD8E9652], Size: 0x2, Name: LegacyGroup {24 22 DB 74 60 A5 FE 65 F7 45 BD 21 2D 2B DD 8E 96 52 16 F0 02 00 4C 65 67 61 63 79 47 72 6F 75 70 00}
+0x5BE1D 	VarStore: VarStoreId: 0xF008 [A56074DB-65FE-45F7-BD21-2D2BDD8E9652], Size: 0x2, Name: LegacyDevOrder {24 25 DB 74 60 A5 FE 65 F7 45 BD 21 2D 2B DD 8E 96 52 08 F0 02 00 4C 65 67 61 63 79 44 65 76 4F 72 64 65 72 00}
+0x5BE42 	VarStore: VarStoreId: 0xF014 [052E6EB0-F240-42C5-8309-45874545C6B4], Size: 0x2, Name: BootNowCount {24 23 B0 6E 2E 05 40 F2 C5 42 83 09 45 87 45 45 C6 B4 14 F0 02 00 42 6F 6F 74 4E 6F 77 43 6F 75 6E 74 00}
+0x5BE65 	VarStore: VarStoreId: 0xF00B [C57AD6B7-0515-40A8-9D21-551652854E37], Size: 0x2, Name: Shell {24 1C B7 D6 7A C5 15 05 A8 40 9D 21 55 16 52 85 4E 37 0B F0 02 00 53 68 65 6C 6C 00}
+0x5BE81 	VarStore: VarStoreId: 0x1 [B08F97FF-E6E8-4193-A997-5E9E9B0ADB32], Size: 0x3C2, Name: CpuSetup {24 1F FF 97 8F B0 E8 E6 93 41 A9 97 5E 9E 9B 0A DB 32 01 00 C2 03 43 70 75 53 65 74 75 70 00}
+0x5BEA0 	VarStore: VarStoreId: 0x2 [EC87D643-EBA4-4BB5-A1E5-3F3E36B20DA9], Size: 0x39, Name: SetupCpuFeatures {24 27 43 D6 87 EC A4 EB B5 4B A1 E5 3F 3E 36 B2 0D A9 02 00 39 00 53 65 74 75 70 43 70 75 46 65 61 74 75 72 65 73 00}
+0x5BEC7 	VarStore: VarStoreId: 0x3 [B08F97FF-E6E8-4193-A997-5E9E9B0ADB32], Size: 0xB, Name: CpuSetupVolatileData {24 2B FF 97 8F B0 E8 E6 93 41 A9 97 5E 9E 9B 0A DB 32 03 00 0B 00 43 70 75 53 65 74 75 70 56 6F 6C 61 74 69 6C 65 44 61 74 61 00}
+0x5BEF2 	VarStore: VarStoreId: 0x4 [72C5E28C-7783-43A1-8767-FAD73FCCAFA4], Size: 0x59A, Name: SaSetup {24 1E 8C E2 C5 72 83 77 A1 43 87 67 FA D7 3F CC AF A4 04 00 9A 05 53 61 53 65 74 75 70 00}
+0x5BF10 	VarStore: VarStoreId: 0x5 [EC87D643-EBA4-4BB5-A1E5-3F3E36B20DA9], Size: 0x6, Name: TbtSetupVolatileData {24 2B 43 D6 87 EC A4 EB B5 4B A1 E5 3F 3E 36 B2 0D A9 05 00 06 00 54 62 74 53 65 74 75 70 56 6F 6C 61 74 69 6C 65 44 61 74 61 00}
+0x5BF3B 	VarStore: VarStoreId: 0x6 [4570B7F1-ADE8-4943-8DC3-406472842384], Size: 0x811, Name: PchSetup {24 1F F1 B7 70 45 E8 AD 43 49 8D C3 40 64 72 84 23 84 06 00 11 08 50 63 68 53 65 74 75 70 00}
+0x5BF5A 	VarStore: VarStoreId: 0x7 [A1D89A3A-4A90-429D-4365-1F64C3A29614], Size: 0x11, Name: NhltEndpointsTableConfigurationVariable {24 3E 3A 9A D8 A1 90 4A 9D 42 43 65 1F 64 C3 A2 96 14 07 00 11 00 4E 68 6C 74 45 6E 64 70 6F 69 6E 74 73 54 61 62 6C 65 43 6F 6E 66 69 67 75 72 61 74 69 6F 6E 56 61 72 69 61 62 6C 65 00}
+0x5BF98 	VarStore: VarStoreId: 0x8 [5432122D-D034-49D2-A6DE-65A829EB4C74], Size: 0x37, Name: MeSetup {24 1E 2D 12 32 54 34 D0 D2 49 A6 DE 65 A8 29 EB 4C 74 08 00 37 00 4D 65 53 65 74 75 70 00}
+0x5BFB6 	VarStore: VarStoreId: 0x9 [5432122D-D034-49D2-A6DE-65A829EB4C74], Size: 0x12, Name: MeSetupStorage {24 25 2D 12 32 54 34 D0 D2 49 A6 DE 65 A8 29 EB 4C 74 09 00 12 00 4D 65 53 65 74 75 70 53 74 6F 72 61 67 65 00}
+0x5BFDB 	VarStore: VarStoreId: 0xA [1E785E1A-8EC4-49E4-8275-FBBDEDED18E7], Size: 0xF, Name: BoardInfoSetup {24 25 1A 5E 78 1E C4 8E E4 49 82 75 FB BD ED ED 18 E7 0A 00 0F 00 42 6F 61 72 64 49 6E 66 6F 53 65 74 75 70 00}
+0x5C000 	VarStore: VarStoreId: 0xB [EC87D643-EBA4-4BB5-A1E5-3F3E36B20DA9], Size: 0x1, Name: SetupAmtFeatures {24 27 43 D6 87 EC A4 EB B5 4B A1 E5 3F 3E 36 B2 0D A9 0B 00 01 00 53 65 74 75 70 41 6D 74 46 65 61 74 75 72 65 73 00}
+0x5C027 	VarStore: VarStoreId: 0xC [64192DCA-D034-49D2-A6DE-65A829EB4C74], Size: 0x8, Name: IccAdvancedSetupDataVar {24 2E CA 2D 19 64 34 D0 D2 49 A6 DE 65 A8 29 EB 4C 74 0C 00 08 00 49 63 63 41 64 76 61 6E 63 65 64 53 65 74 75 70 44 61 74 61 56 61 72 00}
+0x5C055 	VarStore: VarStoreId: 0xD [AAF8E719-48F8-4099-A6F7-645FBD694C3D], Size: 0x7, Name: SiSetup {24 1E 19 E7 F8 AA F8 48 99 40 A6 F7 64 5F BD 69 4C 3D 0D 00 07 00 53 69 53 65 74 75 70 00}
+0x5C073 	VarStore: VarStoreId: 0x2895 [EC87D643-EBA4-4BB5-A1E5-3F3E36B20DA9], Size: 0x4, Name: DebugSetupVolatileData {24 2D 43 D6 87 EC A4 EB B5 4B A1 E5 3F 3E 36 B2 0D A9 95 28 04 00 44 65 62 75 67 53 65 74 75 70 56 6F 6C 61 74 69 6C 65 44 61 74 61 00}
+0x5C0A0 	VarStore: VarStoreId: 0x2896 [B5FBE0C8-A72A-408D-859C-0FD7537AAA5F], Size: 0xC, Name: LpeSetup {24 1F C8 E0 FB B5 2A A7 8D 40 85 9C 0F D7 53 7A AA 5F 96 28 0C 00 4C 70 65 53 65 74 75 70 00}
+0x5C0BF 	VarStore: VarStoreId: 0xE [DE0A5E74-4E3E-3D96-A440-2C96ECBD3C97], Size: 0x11, Name: DebugConfigData {24 26 74 5E 0A DE 3E 4E 96 3D A4 40 2C 96 EC BD 3C 97 0E 00 11 00 44 65 62 75 67 43 6F 6E 66 69 67 44 61 74 61 00}
+0x5C0E5 	VarStore: VarStoreId: 0xF [5E9A565F-CDC0-413B-AD13-1FE8713FFDCD], Size: 0x3, Name: PcieSataModVar {24 25 5F 56 9A 5E C0 CD 3B 41 AD 13 1F E8 71 3F FD CD 0F 00 03 00 50 63 69 65 53 61 74 61 4D 6F 64 56 61 72 00}
+0x5C10A 	VarStore: VarStoreId: 0x10 [FAE2664D-C098-4DB5-9CD8-9B429CF93351], Size: 0x24, Name: PcieSataSetupVar {24 27 4D 66 E2 FA 98 C0 B5 4D 9C D8 9B 42 9C F9 33 51 10 00 24 00 50 63 69 65 53 61 74 61 53 65 74 75 70 56 61 72 00}
+0x5C131 	VarStore: VarStoreId: 0x11 [EC87D643-EBA4-4BB5-A1E5-3F3E36B20DA9], Size: 0xD, Name: AsusFanSetupFeatures {24 2B 43 D6 87 EC A4 EB B5 4B A1 E5 3F 3E 36 B2 0D A9 11 00 0D 00 41 73 75 73 46 61 6E 53 65 74 75 70 46 65 61 74 75 72 65 73 00}
+0x5C15C 	VarStore: VarStoreId: 0x12 [EC87D643-EBA4-4BB5-A1E5-3F3E36B20DA9], Size: 0xC, Name: AsusHwmSetupOneof {24 28 43 D6 87 EC A4 EB B5 4B A1 E5 3F 3E 36 B2 0D A9 12 00 0C 00 41 73 75 73 48 77 6D 53 65 74 75 70 4F 6E 65 6F 66 00}
+0x5C184 	VarStore: VarStoreId: 0x13 [EC87D643-EBA4-4BB5-A1E5-3F3E36B20DA9], Size: 0x48, Name: AsusQFanSetupData {24 28 43 D6 87 EC A4 EB B5 4B A1 E5 3F 3E 36 B2 0D A9 13 00 48 00 41 73 75 73 51 46 61 6E 53 65 74 75 70 44 61 74 61 00}
+0x5C1AC 	VarStore: VarStoreId: 0x14 [EC87D643-EBA4-4BB5-A1E5-3F3E36B20DA9], Size: 0xE, Name: NBPlatformData {24 25 43 D6 87 EC A4 EB B5 4B A1 E5 3F 3E 36 B2 0D A9 14 00 0E 00 4E 42 50 6C 61 74 66 6F 72 6D 44 61 74 61 00}
+0x5C1D1 	VarStore: VarStoreId: 0x15 [C61C31A3-CB5D-46DD-9FE5-8A82BBC72483], Size: 0x4, Name: AmiWrapperSetup {24 26 A3 31 1C C6 5D CB DD 46 9F E5 8A 82 BB C7 24 83 15 00 04 00 41 6D 69 57 72 61 70 70 65 72 53 65 74 75 70 00}
+0x5C1F7 	VarStore: VarStoreId: 0x16 [C0B4FB05-15E5-4588-9FE9-B3D39C067715], Size: 0x2, Name: DriverManager {24 24 05 FB B4 C0 E5 15 88 45 9F E9 B3 D3 9C 06 77 15 16 00 02 00 44 72 69 76 65 72 4D 61 6E 61 67 65 72 00}
+0x5C21B 	VarStore: VarStoreId: 0x17 [8BE4DF61-93CA-11D2-AA0D-00E098032B8C], Size: 0x2, Name: DriverOrder {24 22 61 DF E4 8B CA 93 D2 11 AA 0D 00 E0 98 03 2B 8C 17 00 02 00 44 72 69 76 65 72 4F 72 64 65 72 00}
+0x5C23D 	VarStore: VarStoreId: 0x18 [C143929C-BF5D-423B-999B-0F2DD2B61FF7], Size: 0x2, Name: AmiGopPolicySetupData {24 2C 9C 92 43 C1 5D BF 3B 42 99 9B 0F 2D D2 B6 1F F7 18 00 02 00 41 6D 69 47 6F 70 50 6F 6C 69 63 79 53 65 74 75 70 44 61 74 61 00}
+0x5C269 	VarStore: VarStoreId: 0x19 [EC87D643-EBA4-4BB5-A1E5-3F3E36B20DA9], Size: 0x2, Name: NBGopPlatformData {24 28 43 D6 87 EC A4 EB B5 4B A1 E5 3F 3E 36 B2 0D A9 19 00 02 00 4E 42 47 6F 70 50 6C 61 74 66 6F 72 6D 44 61 74 61 00}
+0x5C291 	VarStore: VarStoreId: 0x1A [EC87D643-EBA4-4BB5-A1E5-3F3E36B20DA9], Size: 0x2, Name: UsbMassDevNum {24 24 43 D6 87 EC A4 EB B5 4B A1 E5 3F 3E 36 B2 0D A9 1A 00 02 00 55 73 62 4D 61 73 73 44 65 76 4E 75 6D 00}
+0x5C2B5 	VarStore: VarStoreId: 0x1B [EC87D643-EBA4-4BB5-A1E5-3F3E36B20DA9], Size: 0x20, Name: UsbMassDevValid {24 26 43 D6 87 EC A4 EB B5 4B A1 E5 3F 3E 36 B2 0D A9 1B 00 20 00 55 73 62 4D 61 73 73 44 65 76 56 61 6C 69 64 00}
+0x5C2DB 	VarStore: VarStoreId: 0x1C [EC87D643-EBA4-4BB5-A1E5-3F3E36B20DA9], Size: 0x4, Name: UsbControllerNum {24 27 43 D6 87 EC A4 EB B5 4B A1 E5 3F 3E 36 B2 0D A9 1C 00 04 00 55 73 62 43 6F 6E 74 72 6F 6C 6C 65 72 4E 75 6D 00}
+0x5C302 	VarStore: VarStoreId: 0x1D [EC87D643-EBA4-4BB5-A1E5-3F3E36B20DA9], Size: 0x31, Name: UsbSupport {24 21 43 D6 87 EC A4 EB B5 4B A1 E5 3F 3E 36 B2 0D A9 1D 00 31 00 55 73 62 53 75 70 70 6F 72 74 00}
+0x5C323 	VarStore: VarStoreId: 0x1E [D1405D16-7AFC-4695-BB12-41459D3695A2], Size: 0x8, Name: NetworkStackVar {24 26 16 5D 40 D1 FC 7A 95 46 BB 12 41 45 9D 36 95 A2 1E 00 08 00 4E 65 74 77 6F 72 6B 53 74 61 63 6B 56 61 72 00}
+0x5C349 	VarStore: VarStoreId: 0x1F [3DD0DE67-02D7-4129-914A-9F377CC34B0D], Size: 0x92, Name: IDESecDev {24 20 67 DE D0 3D D7 02 29 41 91 4A 9F 37 7C C3 4B 0D 1F 00 92 00 49 44 45 53 65 63 44 65 76 00}
+0x5C369 	VarStore: VarStoreId: 0x20 [7B59104A-C00D-4158-87FF-F04D6396A915], Size: 0x7, Name: SecureBootSetup {24 26 4A 10 59 7B 0D C0 58 41 87 FF F0 4D 63 96 A9 15 20 00 07 00 53 65 63 75 72 65 42 6F 6F 74 53 65 74 75 70 00}
+0x5C38F 	VarStore: VarStoreId: 0x21 [7B59104A-C00D-4158-87FF-F04D6396A915], Size: 0x6, Name: SecureVarPresent {24 27 4A 10 59 7B 0D C0 58 41 87 FF F0 4D 63 96 A9 15 21 00 06 00 53 65 63 75 72 65 56 61 72 50 72 65 73 65 6E 74 00}
+0x5C3B6 	VarStore: VarStoreId: 0x22 [8BE4DF61-93CA-11D2-AA0D-00E098032B8C], Size: 0x1, Name: VendorKeys {24 21 61 DF E4 8B CA 93 D2 11 AA 0D 00 E0 98 03 2B 8C 22 00 01 00 56 65 6E 64 6F 72 4B 65 79 73 00}
+0x5C3D7 	VarStore: VarStoreId: 0x23 [8BE4DF61-93CA-11D2-AA0D-00E098032B8C], Size: 0x1, Name: SetupMode {24 20 61 DF E4 8B CA 93 D2 11 AA 0D 00 E0 98 03 2B 8C 23 00 01 00 53 65 74 75 70 4D 6F 64 65 00}
+0x5C3F7 	VarStore: VarStoreId: 0x24 [8BE4DF61-93CA-11D2-AA0D-00E098032B8C], Size: 0x1, Name: SecureBoot {24 21 61 DF E4 8B CA 93 D2 11 AA 0D 00 E0 98 03 2B 8C 24 00 01 00 53 65 63 75 72 65 42 6F 6F 74 00}
+0x5C418 	VarStore: VarStoreId: 0x25 [8BE4DF61-93CA-11D2-AA0D-00E098032B8C], Size: 0x1, Name: AuditMode {24 20 61 DF E4 8B CA 93 D2 11 AA 0D 00 E0 98 03 2B 8C 25 00 01 00 41 75 64 69 74 4D 6F 64 65 00}
+0x5C438 	VarStore: VarStoreId: 0x26 [8BE4DF61-93CA-11D2-AA0D-00E098032B8C], Size: 0x1, Name: DeployedMode {24 23 61 DF E4 8B CA 93 D2 11 AA 0D 00 E0 98 03 2B 8C 26 00 01 00 44 65 70 6C 6F 79 65 64 4D 6F 64 65 00}
+0x5C45B 	VarStore: VarStoreId: 0x27 [7B59104A-C00D-4158-87FF-F04D6396A915], Size: 0x1, Name: AuthVarPreBootPhase {24 2A 4A 10 59 7B 0D C0 58 41 87 FF F0 4D 63 96 A9 15 27 00 01 00 41 75 74 68 56 61 72 50 72 65 42 6F 6F 74 50 68 61 73 65 00}
+0x5C485 	VarStore: VarStoreId: 0xDDDF [2798F49D-F760-480B-8055-916940C27740], Size: 0x8C, Name: TcgStorageDynamicSetupVar {24 30 9D F4 98 27 60 F7 0B 48 80 55 91 69 40 C2 77 40 DF DD 8C 00 54 63 67 53 74 6F 72 61 67 65 44 79 6E 61 6D 69 63 53 65 74 75 70 56 61 72 00}
+0x5C4B5 	VarStore: VarStoreId: 0x28 [EC87D643-EBA4-4BB5-A1E5-3F3E36B20DA9], Size: 0xC, Name: SetupLedData {24 23 43 D6 87 EC A4 EB B5 4B A1 E5 3F 3E 36 B2 0D A9 28 00 0C 00 53 65 74 75 70 4C 65 64 44 61 74 61 00}
+0x5C4D8 	VarStore: VarStoreId: 0x29 [A6F44860-B2E8-4FDA-BD45-78368994B6AE], Size: 0x2, Name: AsusHddSmartInfo {24 27 60 48 F4 A6 E8 B2 DA 4F BD 45 78 36 89 94 B6 AE 29 00 02 00 41 73 75 73 48 64 64 53 6D 61 72 74 49 6E 66 6F 00}
+0x5C4FF 	VarStore: VarStoreId: 0x2A [EC87D643-EBA4-4BB5-A1E5-3F3E36B20DA9], Size: 0x2, Name: SetupAPMFeatures {24 27 43 D6 87 EC A4 EB B5 4B A1 E5 3F 3E 36 B2 0D A9 2A 00 02 00 53 65 74 75 70 41 50 4D 46 65 61 74 75 72 65 73 00}
+0x5C526 	VarStore: VarStoreId: 0x2B [560BF58A-1E0D-4D7E-953F-2980A261E031], Size: 0x9, Name: VV_SIO0_LD2 {24 22 8A F5 0B 56 0D 1E 7E 4D 95 3F 29 80 A2 61 E0 31 2B 00 09 00 56 56 5F 53 49 4F 30 5F 4C 44 32 00}
+0x5C548 	VarStore: VarStoreId: 0x2C [560BF58A-1E0D-4D7E-953F-2980A261E031], Size: 0x3, Name: NV_SIO0_LD2 {24 22 8A F5 0B 56 0D 1E 7E 4D 95 3F 29 80 A2 61 E0 31 2C 00 03 00 4E 56 5F 53 49 4F 30 5F 4C 44 32 00}
+0x5C56A 	VarStore: VarStoreId: 0x2D [560BF58A-1E0D-4D7E-953F-2980A261E031], Size: 0x9, Name: VV_SIO0_LD3 {24 22 8A F5 0B 56 0D 1E 7E 4D 95 3F 29 80 A2 61 E0 31 2D 00 09 00 56 56 5F 53 49 4F 30 5F 4C 44 33 00}
+0x5C58C 	VarStore: VarStoreId: 0x2E [560BF58A-1E0D-4D7E-953F-2980A261E031], Size: 0x3, Name: NV_SIO0_LD3 {24 22 8A F5 0B 56 0D 1E 7E 4D 95 3F 29 80 A2 61 E0 31 2E 00 03 00 4E 56 5F 53 49 4F 30 5F 4C 44 33 00}
+0x5C5AE 	VarStore: VarStoreId: 0x2F [0024FD50-3BC1-436C-BDDD-2C92515C1285], Size: 0x1F, Name: SIBoardItemControl {24 29 50 FD 24 00 C1 3B 6C 43 BD DD 2C 92 51 5C 12 85 2F 00 1F 00 53 49 42 6F 61 72 64 49 74 65 6D 43 6F 6E 74 72 6F 6C 00}
+0x5C5D7 	VarStore: VarStoreId: 0x30 [A3A3B874-7636-4182-BA1E-F52C584494E3], Size: 0x4DF1, Name: VARSTORE_OCMR_SETTINGS_NAME {24 32 74 B8 A3 A3 36 76 82 41 BA 1E F5 2C 58 44 94 E3 30 00 F1 4D 56 41 52 53 54 4F 52 45 5F 4F 43 4D 52 5F 53 45 54 54 49 4E 47 53 5F 4E 41 4D 45 00}
+0x5C609 	VarStore: VarStoreId: 0x31 [B63BF800-F267-4F55-9217-E97FB3B69846], Size: 0x2, Name: DynamicPageCount {24 27 00 F8 3B B6 67 F2 55 4F 92 17 E9 7F B3 B6 98 46 31 00 02 00 44 79 6E 61 6D 69 63 50 61 67 65 43 6F 75 6E 74 00}
+0x5C630 	VarStore: VarStoreId: 0x32 [EC87D643-EBA4-4BB5-A1E5-3F3E36B20DA9], Size: 0x6D, Name: SetupVolatileData {24 28 43 D6 87 EC A4 EB B5 4B A1 E5 3F 3E 36 B2 0D A9 32 00 6D 00 53 65 74 75 70 56 6F 6C 61 74 69 6C 65 44 61 74 61 00}
+0x5C658 	Form: Setup, FormId: 0x2710 {01 86 10 27 07 00}
+0x5C65E 		Ref: My Favorites, VarStoreInfo (VarOffset/VarName): 0xFFFF, VarStore: 0x0, QuestionId: 0x1, FormId: 0x2712 {0F 0F 04 24 04 24 01 00 00 00 FF FF 00 12 27}
+0x5C66D 		Ref: Main, VarStoreInfo (VarOffset/VarName): 0xFFFF, VarStore: 0x0, QuestionId: 0x2, FormId: 0x2713 {0F 0F 09 00 02 00 02 00 00 00 FF FF 00 13 27}
+0x5C67C 		Ref: Ai Tweaker, VarStoreInfo (VarOffset/VarName): 0xFFFF, VarStore: 0x0, QuestionId: 0x3, FormId: 0x2714 {0F 0F 11 24 02 00 03 00 00 00 FF FF 00 14 27}
+0x5C68B 		Ref: Advanced, VarStoreInfo (VarOffset/VarName): 0xFFFF, VarStore: 0x0, QuestionId: 0x4, FormId: 0x2715 {0F 0F 1E 00 02 00 04 00 00 00 FF FF 00 15 27}
+0x5C69A 		Ref: Monitor, VarStoreInfo (VarOffset/VarName): 0xFFFF, VarStore: 0x0, QuestionId: 0x5, FormId: 0x2716 {0F 0F 0D 25 02 00 05 00 00 00 FF FF 00 16 27}
+0x5C6A9 		Ref: Chipset, VarStoreInfo (VarOffset/VarName): 0xFFFF, VarStore: 0x0, QuestionId: 0x6, FormId: 0x2717 {0F 0F 1F 00 02 00 06 00 00 00 FF FF 00 17 27}
+0x5C6B8 		Ref: Boot, VarStoreInfo (VarOffset/VarName): 0xFFFF, VarStore: 0x0, QuestionId: 0x7, FormId: 0x2718 {0F 0F 20 00 02 00 07 00 00 00 FF FF 00 18 27}
+0x5C6C7 		Ref: Tool, VarStoreInfo (VarOffset/VarName): 0xFFFF, VarStore: 0x0, QuestionId: 0x8, FormId: 0x2719 {0F 0F 2A 25 02 00 08 00 00 00 FF FF 00 19 27}
+0x5C6D6 		Ref: Exit, VarStoreInfo (VarOffset/VarName): 0xFFFF, VarStore: 0x0, QuestionId: 0x9, FormId: 0x271A {0F 0F 4F 00 02 00 09 00 00 00 FF FF 00 1A 27}
+0x5C6E5 	End Form {29 02}
+0x5C6E7 	Form: My Favorites, FormId: 0x2712 {01 86 12 27 04 24}
+0x5C6ED 	End Form {29 02}
+0x5C6EF 	Form: Main, FormId: 0x2713 {01 86 13 27 09 00}
+0x5C6F5 		Subtitle: Statement.Prompt: \x1b[;46;mBIOS Information, Flags: 0x0 {02 87 0C 00 00 00 00}
+0x5C6FC 		End {29 02}
+0x5C6FE 		Suppress If {0A 82}
+0x5C700 			64 Bit Unsigned Int: 0x0 {45 8A 00 00 00 00 00 00 00 00}
+0x5C70A 				64 Bit Unsigned Int: 0x0 {45 0A 00 00 00 00 00 00 00 00}
+0x5C714 				Equal {2F 02}
+0x5C716 			End {29 02}
+0x5C718 			Text: Statement.Prompt: BIOS Vendor, TextTwo: N/A {03 08 0D 00 02 00 0E 00}
+0x5C720 			Text: Statement.Prompt: Core Version, TextTwo: N/A {03 08 0F 00 02 00 10 00}
+0x5C728 			Text: Statement.Prompt: Compliancy, TextTwo: N/A {03 08 11 00 02 00 12 00}
+0x5C730 		End If {29 02}
+0x5C732 		Text: Statement.Prompt: BIOS Version, TextTwo: N/A {03 08 13 00 02 00 14 00}
+0x5C73A 		Text: Statement.Prompt: Build Date, TextTwo: N/A {03 08 15 00 02 00 16 00}
+0x5C742 		Subtitle: Statement.Prompt: , Flags: 0x0 {02 87 02 00 00 00 00}
+0x5C749 		End {29 02}
+0x5C74B 		Text: Statement.Prompt: LED EC Version, TextTwo:  {03 08 1D 23 02 00 1E 23}
+0x5C753 		Subtitle: Statement.Prompt: , Flags: 0x0 {02 87 02 00 00 00 00}
+0x5C75A 		End {29 02}
+0x5C75C 		Suppress If {0A 82}
+0x5C75E 			QuestionId: 0xA equals value 0x0 {12 86 0A 00 00 00}
+0x5C764 				QuestionId: 0xB equals value 0x0 {12 06 0B 00 00 00}
+0x5C76A 				And {15 02}
+0x5C76C 				QuestionId: 0xC equals value 0x0 {12 06 0C 00 00 00}
+0x5C772 				And {15 02}
+0x5C774 				QuestionId: 0xD equals value 0x0 {12 06 0D 00 00 00}
+0x5C77A 				And {15 02}
+0x5C77C 			End {29 02}
+0x5C77E 			Subtitle: Statement.Prompt: SMBIOS Information, Flags: 0x0 {02 87 38 25 00 00 00}
+0x5C785 			End {29 02}
+0x5C787 			Suppress If {0A 82}
+0x5C789 				True {46 02}
+0x5C78B 				One Of: Manufacturer, VarStoreInfo (VarOffset/VarName): 0xE, VarStore: 0x2F, QuestionId: 0xA, Size: 1, Min: 0x0, Max 0x1, Step: 0x0 {05 91 39 25 3A 25 0A 00 2F 00 0E 00 10 10 00 01 00}
+0x5C79C 					Default: DefaultId: 0x0, Value (8 bit): 0x0 {5B 06 00 00 00 00}
+0x5C7A2 					One Of Option: Hidden, Value (8 bit): 0x0 (default MFG) {09 07 68 25 20 00 00}
+0x5C7A9 					One Of Option: Show, Value (8 bit): 0x1 {09 07 69 25 00 00 01}
+0x5C7B0 				End One Of {29 02}
+0x5C7B2 				One Of: Product Name, VarStoreInfo (VarOffset/VarName): 0xF, VarStore: 0x2F, QuestionId: 0xB, Size: 1, Min: 0x0, Max 0x1, Step: 0x0 {05 91 3C 25 3D 25 0B 00 2F 00 0F 00 10 10 00 01 00}
+0x5C7C3 					Default: DefaultId: 0x0, Value (8 bit): 0x0 {5B 06 00 00 00 00}
+0x5C7C9 					One Of Option: Hidden, Value (8 bit): 0x0 (default MFG) {09 07 68 25 20 00 00}
+0x5C7D0 					One Of Option: Show, Value (8 bit): 0x1 {09 07 69 25 00 00 01}
+0x5C7D7 				End One Of {29 02}
+0x5C7D9 				One Of: System Number, VarStoreInfo (VarOffset/VarName): 0x10, VarStore: 0x2F, QuestionId: 0xC, Size: 1, Min: 0x0, Max 0x1, Step: 0x0 {05 91 3F 25 40 25 0C 00 2F 00 10 00 10 10 00 01 00}
+0x5C7EA 					Default: DefaultId: 0x0, Value (8 bit): 0x0 {5B 06 00 00 00 00}
+0x5C7F0 					One Of Option: Hidden, Value (8 bit): 0x0 (default MFG) {09 07 68 25 20 00 00}
+0x5C7F7 					One Of Option: Show, Value (8 bit): 0x1 {09 07 69 25 00 00 01}
+0x5C7FE 				End One Of {29 02}
+0x5C800 				One Of: Asset Tag Number, VarStoreInfo (VarOffset/VarName): 0x11, VarStore: 0x2F, QuestionId: 0xD, Size: 1, Min: 0x0, Max 0x1, Step: 0x0 {05 91 08 24 09 24 0D 00 2F 00 11 00 10 10 00 01 00}
+0x5C811 					Default: DefaultId: 0x0, Value (8 bit): 0x0 {5B 06 00 00 00 00}
+0x5C817 					One Of Option: Hidden, Value (8 bit): 0x0 {09 07 68 25 00 00 00}
+0x5C81E 					One Of Option: Show, Value (8 bit): 0x1 {09 07 69 25 00 00 01}
+0x5C825 				End One Of {29 02}
+0x5C827 			End If {29 02}
+0x5C829 			Suppress If {0A 82}
+0x5C82B 				QuestionId: 0xA equals value 0x0 {12 06 0A 00 00 00}
+0x5C831 				Text: Statement.Prompt: Manufacturer, TextTwo:  {03 08 39 25 3A 25 3B 25}
+0x5C839 			End If {29 02}
+0x5C83B 			Suppress If {0A 82}
+0x5C83D 				QuestionId: 0xB equals value 0x0 {12 06 0B 00 00 00}
+0x5C843 				Text: Statement.Prompt: Product Name, TextTwo:  {03 08 3C 25 3D 25 3E 25}
+0x5C84B 			End If {29 02}
+0x5C84D 			Suppress If {0A 82}
+0x5C84F 				QuestionId: 0xC equals value 0x0 {12 06 0C 00 00 00}
+0x5C855 				Text: Statement.Prompt: System Number, TextTwo:  {03 08 3F 25 40 25 41 25}
+0x5C85D 			End If {29 02}
+0x5C85F 			Suppress If {0A 82}
+0x5C861 				QuestionId: 0xD equals value 0x0 {12 06 0D 00 00 00}
+0x5C867 				Text: Statement.Prompt: Asset Tag Number, TextTwo:  {03 08 08 24 09 24 0A 24}
+0x5C86F 			End If {29 02}
+0x5C871 		End If {29 02}
+0x5C873 		Subtitle: Statement.Prompt: , Flags: 0x0 {02 87 02 00 00 00 00}
+0x5C87A 		End {29 02}
+0x5C87C 		Suppress If {0A 82}
+0x5C87E 			QuestionId: 0xE equals value 0x0 {12 06 0E 00 00 00}
+0x5C884 			Subtitle: Statement.Prompt: MB Information, Flags: 0x0 {02 87 42 25 00 00 00}
+0x5C88B 			End {29 02}
+0x5C88D 			Suppress If {0A 82}
+0x5C88F 				True {46 02}
+0x5C891 				One Of: Lan MAC Address, VarStoreInfo (VarOffset/VarName): 0x14, VarStore: 0x2F, QuestionId: 0xE, Size: 1, Min: 0x0, Max 0x1, Step: 0x0 {05 91 6C 25 6D 25 0E 00 2F 00 14 00 10 10 00 01 00}
+0x5C8A2 					One Of Option: Disabled, Value (8 bit): 0x0 (default) {09 07 04 00 10 00 00}
+0x5C8A9 					One Of Option: Enabled, Value (8 bit): 0x1 {09 07 03 00 00 00 01}
+0x5C8B0 				End One Of {29 02}
+0x5C8B2 			End If {29 02}
+0x5C8B4 			Suppress If {0A 82}
+0x5C8B6 				QuestionId: 0x1335 equals value 0x0 {12 06 35 13 00 00}
+0x5C8BC 				Text: Statement.Prompt: Realtek Lan MAC Address, TextTwo:  {03 08 43 25 44 25 45 25}
+0x5C8C4 			End If {29 02}
+0x5C8C6 		End If {29 02}
+0x5C8C8 		Suppress If {0A 82}
+0x5C8CA 			True {46 02}
+0x5C8CC 			One Of: Display Enter Setup Hotkey String, VarStoreInfo (VarOffset/VarName): 0x7, VarStore: 0x2F, QuestionId: 0xF, Size: 1, Min: 0x0, Max 0x1, Step: 0x0 {05 91 56 25 57 25 0F 00 2F 00 07 00 10 10 00 01 00}
+0x5C8DD 				Default: DefaultId: 0x0, Value (8 bit): 0x1 {5B 06 00 00 00 01}
+0x5C8E3 				One Of Option: Disabled, Value (8 bit): 0x0 {09 07 04 00 00 00 00}
+0x5C8EA 				One Of Option: Enabled, Value (8 bit): 0x1 {09 07 03 00 00 00 01}
+0x5C8F1 			End One Of {29 02}
+0x5C8F3 		End If {29 02}
+0x5C8F5 		Suppress If {0A 82}
+0x5C8F7 			True {46 02}
+0x5C8F9 			One Of: Support Display Enter Setup Hotkey String, VarStoreInfo (VarOffset/VarName): 0x6, VarStore: 0x2F, QuestionId: 0x10, Size: 1, Min: 0x0, Max 0x1, Step: 0x0 {05 91 58 25 59 25 10 00 2F 00 06 00 10 10 00 01 00}
+0x5C90A 				Default: DefaultId: 0x0, Value (8 bit): 0x0 {5B 06 00 00 00 00}
+0x5C910 				One Of Option: Disabled, Value (8 bit): 0x0 {09 07 04 00 00 00 00}
+0x5C917 				One Of Option: Enabled, Value (8 bit): 0x1 {09 07 03 00 00 00 01}
+0x5C91E 			End One Of {29 02}
+0x5C920 		End If {29 02}
+0x5C922 		Text: Statement.Prompt: ME FW Version, TextTwo: N/A {03 08 B6 1A B5 1A B7 1A}
+0x5C92A 		Text: Statement.Prompt: PCH Stepping, TextTwo: UnKnown {03 08 A6 1A A5 1A A7 1A}
+0x5C932 		Subtitle: Statement.Prompt: , Flags: 0x0 {02 87 02 00 00 00 00}
+0x5C939 		End {29 02}
+0x5C93B 		Subtitle: Statement.Prompt: \x1b[;46;mProcessor Information, Flags: 0x0 {02 87 62 1B 00 00 00}
+0x5C942 		End {29 02}
+0x5C944 		Text: Statement.Prompt: Brand String, TextTwo: N/A {03 08 64 1B 63 1B 65 1B}
+0x5C94C 		Text: Statement.Prompt: Processor Base Frequency, TextTwo: N/A {03 08 66 1B 68 1B 67 1B}
+0x5C954 		Text: Statement.Prompt: Total Memory, TextTwo: N/A {03 08 72 1B 74 1B 73 1B}
+0x5C95C 		Text: Statement.Prompt: Memory Frequency, TextTwo: N/A {03 08 DD 07 DC 07 DE 07}
+0x5C964 		Subtitle: Statement.Prompt: , Flags: 0x0 {02 87 02 00 00 00 00}
+0x5C96B 		End {29 02}
+0x5C96D 		Suppress If {0A 82}
+0x5C96F 			QuestionId: 0x1544 equals value 0xFFFF {12 06 44 15 FF FF}
+0x5C975 			One Of: System Language, VarStoreInfo (VarOffset/VarName): 0x0, VarStore: 0xF009, QuestionId: 0x11, Size: 2, Min: 0x0, Max 0x1, Step: 0x0 {05 94 0B 00 0A 00 11 00 09 F0 00 00 00 11 00 00 01 00 00 00}
+0x5C989 				One Of Option: , Value (16 bit): 0x0 {09 08 02 00 01 01 00 00}
+0x5C991 				One Of Option: , Value (16 bit): 0x1 {09 08 02 00 01 01 01 00}
+0x5C999 				Default: DefaultId: 0x0, Value (16 bit): 0x0 {5B 07 00 00 01 00 00}
+0x5C9A0 				Default: DefaultId: 0x1, Value (16 bit): 0x0 {5B 07 01 00 01 00 00}
+0x5C9A7 			End One Of {29 02}
+0x5C9A9 		End If {29 02}
+0x5C9AB 		Date: System Date, VarStoreInfo (VarOffset/VarName): 0xFFFF, VarStore: 0x0, QuestionId: 0x12 {1A 8E 17 00 18 00 12 00 00 00 FF FF 00 10}
+0x5C9B9 			Default: DefaultId: 0x0, Value (Date) {5B 09 00 00 06 DE 07 01 01}
+0x5C9C2 		End {29 02}
+0x5C9C4 		Time: System Time, VarStoreInfo (VarOffset/VarName): 0xFFFF, VarStore: 0x0, QuestionId: 0x13 {1B 8E 19 00 1A 00 13 00 00 00 FF FF 00 10}
+0x5C9D2 			Default: DefaultId: 0x0, Value (Time) {5B 08 00 00 05 00 00 00}
+0x5C9DA 		End {29 02}
+0x5C9DC 		Suppress If {0A 82}
+0x5C9DE 			QuestionId: 0x13A7 equals value 0x0 {12 06 A7 13 00 00}
+0x5C9E4 			Text: Statement.Prompt: Access Level, TextTwo: User {03 08 1B 00 02 00 1C 00}
+0x5C9EC 		End If {29 02}
+0x5C9EE 		Suppress If {0A 82}
+0x5C9F0 			QuestionId: 0x13A7 equals value 0x1 {12 06 A7 13 01 00}
+0x5C9F6 			Text: Statement.Prompt: Access Level, TextTwo: Administrator {03 08 1B 00 02 00 1D 00}
+0x5C9FE 		End If {29 02}
+0x5CA00 		Ref: Security, VarStoreInfo (VarOffset/VarName): 0xFFFF, VarStore: 0x0, QuestionId: 0x14, FormId: 0x289E {0F 0F 3B 00 3C 00 14 00 00 00 FF FF 00 9E 28}
+0x5CA0F 		Subtitle: Statement.Prompt: , Flags: 0x0 {02 87 02 00 00 00 00}
+0x5CA16 		End {29 02}
+0x5CA18 		Suppress If {0A 82}
+0x5CA1A 			64 Bit Unsigned Int: 0x0 {45 8A 00 00 00 00 00 00 00 00}
+0x5CA24 				64 Bit Unsigned Int: 0x0 {45 0A 00 00 00 00 00 00 00 00}
+0x5CA2E 				Equal {2F 02}
+0x5CA30 			End {29 02}
+0x5CA32 			Suppress If {0A 82}
+0x5CA34 				QuestionId: 0x1543 equals value in list (0x0) {14 08 43 15 01 00 00 00}
+0x5CA3C 				Text: Statement.Prompt: HDD Security Configuration:, TextTwo:  {03 08 D9 21 02 00 02 00}
+0x5CA44 			End If {29 02}
+0x5CA46 			Suppress If {0A 82}
+0x5CA48 				QuestionId: 0x1543 equals value in list (0xFFFF) {14 08 43 15 01 00 FF FF}
+0x5CA50 				Ref: , VarStoreInfo (VarOffset/VarName): 0xFFFF, VarStore: 0x0, QuestionId: 0x15, FormId: 0x29AA {0F 0F 02 00 6E 00 15 00 00 00 FF FF 00 AA 29}
+0x5CA5F 			End If {29 02}
+0x5CA61 		End If {29 02}
+0x5CA63 		Subtitle: Statement.Prompt: , Flags: 0x0 {02 87 02 00 00 00 00}
+0x5CA6A 		End {29 02}
+0x5CA6C 		Suppress If {0A 82}
+0x5CA6E 			True {46 02}
+0x5CA70 			One Of: Support HDD User Password, VarStoreInfo (VarOffset/VarName): 0x12, VarStore: 0x2F, QuestionId: 0x16, Size: 1, Min: 0x0, Max 0x1, Step: 0x0 {05 91 6A 25 6B 25 16 00 2F 00 12 00 10 10 00 01 00}
+0x5CA81 				One Of Option: Disabled, Value (8 bit): 0x0 {09 07 04 00 00 00 00}
+0x5CA88 				One Of Option: Enabled, Value (8 bit): 0x1 {09 07 03 00 00 00 01}
+0x5CA8F 				Default: DefaultId: 0x0, Value (8 bit): 0x0 {5B 06 00 00 00 00}
+0x5CA95 			End One Of {29 02}
+0x5CA97 			One Of: HDD Master Password, VarStoreInfo (VarOffset/VarName): 0x13, VarStore: 0x2F, QuestionId: 0x17, Size: 1, Min: 0x0, Max 0x1, Step: 0x0 {05 91 6E 25 6F 25 17 00 2F 00 13 00 10 10 00 01 00}
+0x5CAA8 				One Of Option: Disabled, Value (8 bit): 0x0 {09 07 04 00 00 00 00}
+0x5CAAF 				One Of Option: Enabled, Value (8 bit): 0x1 (default MFG) {09 07 03 00 20 00 01}
+0x5CAB6 				Default: DefaultId: 0x0, Value (8 bit): 0x0 {5B 06 00 00 00 00}
+0x5CABC 			End One Of {29 02}
+0x5CABE 		End If {29 02}
+0x5CAC0 		Suppress If {0A 82}
+0x5CAC2 			QuestionId: 0x1543 equals value in list (0x0) {14 88 43 15 01 00 00 00}
+0x5CACA 				QuestionId: 0x16 equals value 0x0 {12 06 16 00 00 00}
+0x5CAD0 				QuestionId: 0x17 equals value 0x0 {12 06 17 00 00 00}
+0x5CAD6 				And {15 02}
+0x5CAD8 				Or {16 02}
+0x5CADA 			End {29 02}
+0x5CADC 			Text: Statement.Prompt: HDD Security Configuration:, TextTwo:  {03 08 D9 21 02 00 02 00}
+0x5CAE4 		End If {29 02}
+0x5CAE6 		Suppress If {0A 82}
+0x5CAE8 			QuestionId: 0x1543 equals value in list (0xFFFF) {14 88 43 15 01 00 FF FF}
+0x5CAF0 				QuestionId: 0x16 equals value 0x0 {12 06 16 00 00 00}
+0x5CAF6 				QuestionId: 0x17 equals value 0x0 {12 06 17 00 00 00}
+0x5CAFC 				And {15 02}
+0x5CAFE 				Or {16 02}
+0x5CB00 			End {29 02}
+0x5CB02 			Ref: , VarStoreInfo (VarOffset/VarName): 0xFFFF, VarStore: 0x0, QuestionId: 0x18, FormId: 0x29AA {0F 0F 02 00 6E 00 18 00 00 00 FF FF 00 AA 29}
+0x5CB11 		End If {29 02}
+0x5CB13 		Subtitle: Statement.Prompt: , Flags: 0x0 {02 87 02 00 00 00 00}
+0x5CB1A 		End {29 02}
+0x5CB1C 	End Form {29 02}
+0x5CB1E 	Form: Security, FormId: 0x289E {01 86 9E 28 3B 00}
+0x5CB24 		Subtitle: Statement.Prompt: Password Description, Flags: 0x0 {02 87 3D 00 00 00 00}
+0x5CB2B 		End {29 02}
+0x5CB2D 		Subtitle: Statement.Prompt: , Flags: 0x0 {02 87 02 00 00 00 00}
+0x5CB34 		End {29 02}
+0x5CB36 		Subtitle: Statement.Prompt: If ONLY the Administrator's password is set, then this only limits access to Setup and is only asked for when entering Setup., Flags: 0x0 {02 87 3E 00 00 00 00}
+0x5CB3D 		End {29 02}
+0x5CB3F 		Subtitle: Statement.Prompt: If ONLY the User's password is set, then this is a power on password and must be entered to boot or enter Setup., Flags: 0x0 {02 87 3F 00 00 00 00}
+0x5CB46 		End {29 02}
+0x5CB48 		Subtitle: Statement.Prompt: In Setup the User will have Administrator rights., Flags: 0x0 {02 87 40 00 00 00 00}
+0x5CB4F 		End {29 02}
+0x5CB51 		Subtitle: Statement.Prompt: The password length must be in the following range:, Flags: 0x0 {02 87 41 00 00 00 00}
+0x5CB58 		End {29 02}
+0x5CB5A 		Text: Statement.Prompt: Minimum length, TextTwo: N/A {03 08 47 00 02 00 48 00}
+0x5CB62 		Text: Statement.Prompt: Maximum length, TextTwo: N/A {03 08 49 00 02 00 4A 00}
+0x5CB6A 		Suppress If {0A 82}
+0x5CB6C 			QuestionId: 0x13A7 equals value 0x1 {12 06 A7 13 01 00}
+0x5CB72 			Text: Statement.Prompt: Administrator Password, TextTwo: Not Installed {03 08 4B 00 02 00 0B 24}
+0x5CB7A 			Suppress If {0A 82}
+0x5CB7C 				True {46 02}
+0x5CB7E 				Suppress If {0A 82}
+0x5CB80 					QuestionId: 0x1393 equals value 0xB {12 06 93 13 0B 00}
+0x5CB86 					Action: Administrator Password, VarStoreInfo (VarOffset/VarName): 0xFFFF, VarStore: 0x0, QuestionId: 0x289F, QuestionConfig:  {0C 8F 4B 00 02 00 9F 28 00 00 FF FF 04 00 00}
+0x5CB95 					End {29 02}
+0x5CB97 				End If {29 02}
+0x5CB99 			End If {29 02}
+0x5CB9B 		End If {29 02}
+0x5CB9D 		Text: Statement.Prompt: User Password, TextTwo: Not Installed {03 08 4D 00 02 00 0C 24}
+0x5CBA5 		Suppress If {0A 82}
+0x5CBA7 			True {46 02}
+0x5CBA9 			Suppress If {0A 82}
+0x5CBAB 				QuestionId: 0x1393 equals value 0xB {12 06 93 13 0B 00}
+0x5CBB1 				Action: User Password, VarStoreInfo (VarOffset/VarName): 0xFFFF, VarStore: 0x0, QuestionId: 0x28A0, QuestionConfig:  {0C 8F 4D 00 02 00 A0 28 00 00 FF FF 04 00 00}
+0x5CBC0 				End {29 02}
+0x5CBC2 			End If {29 02}
+0x5CBC4 		End If {29 02}
+0x5CBC6 		Subtitle: Statement.Prompt: , Flags: 0x0 {02 87 02 00 00 00 00}
+0x5CBCD 		End {29 02}
+0x5CBCF 		Gray Out If {19 82}
+0x5CBD1 			QuestionId: 0x13A7 equals value 0x1 {12 06 A7 13 01 00}
+0x5CBD7 			Password: Administrator Password, VarStoreInfo (VarOffset/VarName): 0x28, VarStore: 0xF013, QuestionId: 0x19, MinSize: 0x3, MaxSize 0x14 {08 91 4B 00 4C 00 19 00 13 F0 28 00 00 03 00 14 00}
+0x5CBE8 			End {29 02}
+0x5CBEA 		End If {29 02}
+0x5CBEC 		Password: User Password, VarStoreInfo (VarOffset/VarName): 0x0, VarStore: 0xF013, QuestionId: 0x1A, MinSize: 0x3, MaxSize 0x14 {08 91 4D 00 4E 00 1A 00 13 F0 00 00 00 03 00 14 00}
+0x5CBFD 		End {29 02}
+0x5CBFF 	End Form {29 02}
+0x5CC01 	Form: HDD Password, FormId: 0x29AA {01 86 AA 29 6D 00}
+0x5CC07 		Subtitle: Statement.Prompt: HDD Password Description :, Flags: 0x0 {02 87 DA 21 00 00 00}
+0x5CC0E 		End {29 02}
+0x5CC10 		Subtitle: Statement.Prompt: , Flags: 0x0 {02 87 02 00 00 00 00}
+0x5CC17 		End {29 02}
+0x5CC19 		Subtitle: Statement.Prompt: Allows Access to Set, Modify and Clear, Flags: 0x0 {02 87 DB 21 00 00 00}
+0x5CC20 		End {29 02}
+0x5CC22 		Subtitle: Statement.Prompt: Hard Disk  User  Password, Flags: 0x0 {02 87 DC 21 00 00 00}
+0x5CC29 		End {29 02}
+0x5CC2B 		Subtitle: Statement.Prompt: and  Master  Password., Flags: 0x0 {02 87 DD 21 00 00 00}
+0x5CC32 		End {29 02}
+0x5CC34 		Subtitle: Statement.Prompt: User Password is mandatory to Enable HDD Security., Flags: 0x0 {02 87 DE 21 00 00 00}
+0x5CC3B 		End {29 02}
+0x5CC3D 		Subtitle: Statement.Prompt: If Master password is installed (optional),, Flags: 0x0 {02 87 DF 21 00 00 00}
+0x5CC44 		End {29 02}
+0x5CC46 		Subtitle: Statement.Prompt: it can also be used to unlock the HDD., Flags: 0x0 {02 87 E0 21 00 00 00}
+0x5CC4D 		End {29 02}
+0x5CC4F 		Subtitle: Statement.Prompt: If the 'Set User Password' option is hidden,, Flags: 0x0 {02 87 E1 21 00 00 00}
+0x5CC56 		End {29 02}
+0x5CC58 		Subtitle: Statement.Prompt: do power cycle to enable the option again., Flags: 0x0 {02 87 E2 21 00 00 00}
+0x5CC5F 		End {29 02}
+0x5CC61 		Subtitle: Statement.Prompt: , Flags: 0x0 {02 87 02 00 00 00 00}
+0x5CC68 		End {29 02}
+0x5CC6A 		Subtitle: Statement.Prompt: HDD PASSWORD CONFIGURATION:, Flags: 0x0 {02 87 EA 21 00 00 00}
+0x5CC71 		End {29 02}
+0x5CC73 		Subtitle: Statement.Prompt: , Flags: 0x0 {02 87 02 00 00 00 00}
+0x5CC7A 		End {29 02}
+0x5CC7C 		Suppress If {0A 82}
+0x5CC7E 			QuestionId: 0x1542 equals value in list (0x0) {14 08 42 15 01 00 00 00}
+0x5CC86 			Text: Statement.Prompt: Security Supported :, TextTwo: Yes {03 08 EB 21 02 00 EF 21}
+0x5CC8E 		End If {29 02}
+0x5CC90 		Suppress If {0A 82}
+0x5CC92 			QuestionId: 0x1542 equals value in list (0x1) {14 08 42 15 01 00 01 00}
+0x5CC9A 			Text: Statement.Prompt: Security Supported :, TextTwo: No {03 08 EB 21 02 00 F0 21}
+0x5CCA2 		End If {29 02}
+0x5CCA4 		Suppress If {0A 82}
+0x5CCA6 			QuestionId: 0x1541 equals value in list (0x0) {14 08 41 15 01 00 00 00}
+0x5CCAE 			Text: Statement.Prompt: Security Enabled  :, TextTwo: Yes {03 08 EC 21 02 00 EF 21}
+0x5CCB6 		End If {29 02}
+0x5CCB8 		Suppress If {0A 82}
+0x5CCBA 			QuestionId: 0x1541 equals value in list (0x1) {14 08 41 15 01 00 01 00}
+0x5CCC2 			Text: Statement.Prompt: Security Enabled  :, TextTwo: No {03 08 EC 21 02 00 F0 21}
+0x5CCCA 		End If {29 02}
+0x5CCCC 		Suppress If {0A 82}
+0x5CCCE 			QuestionId: 0x1540 equals value in list (0x0) {14 08 40 15 01 00 00 00}
+0x5CCD6 			Text: Statement.Prompt: Security Locked  :, TextTwo: Yes {03 08 ED 21 02 00 EF 21}
+0x5CCDE 		End If {29 02}
+0x5CCE0 		Suppress If {0A 82}
+0x5CCE2 			QuestionId: 0x1540 equals value in list (0x1) {14 08 40 15 01 00 01 00}
+0x5CCEA 			Text: Statement.Prompt: Security Locked  :, TextTwo: No {03 08 ED 21 02 00 F0 21}
+0x5CCF2 		End If {29 02}
+0x5CCF4 		Suppress If {0A 82}
+0x5CCF6 			QuestionId: 0x153B equals value in list (0x0) {14 08 3B 15 01 00 00 00}
+0x5CCFE 			Text: Statement.Prompt: Security Frozen  :, TextTwo: Yes {03 08 EE 21 02 00 EF 21}
+0x5CD06 		End If {29 02}
+0x5CD08 		Suppress If {0A 82}
+0x5CD0A 			QuestionId: 0x153B equals value in list (0x1) {14 08 3B 15 01 00 01 00}
+0x5CD12 			Text: Statement.Prompt: Security Frozen  :, TextTwo: No {03 08 EE 21 02 00 F0 21}
+0x5CD1A 		End If {29 02}
+0x5CD1C 		Suppress If {0A 82}
+0x5CD1E 			QuestionId: 0x153F equals value in list (0x0) {14 08 3F 15 01 00 00 00}
+0x5CD26 			Text: Statement.Prompt: HDD User Pwd Status:, TextTwo: INSTALLED {03 08 03 22 02 00 01 22}
+0x5CD2E 		End If {29 02}
+0x5CD30 		Suppress If {0A 82}
+0x5CD32 			QuestionId: 0x153F equals value in list (0x1) {14 08 3F 15 01 00 01 00}
+0x5CD3A 			Text: Statement.Prompt: HDD User Pwd Status:, TextTwo: NOT INSTALLED {03 08 03 22 02 00 02 22}
+0x5CD42 		End If {29 02}
+0x5CD44 		Suppress If {0A 82}
+0x5CD46 			QuestionId: 0x153E equals value in list (0x0) {14 08 3E 15 01 00 00 00}
+0x5CD4E 			Text: Statement.Prompt: HDD Master Pwd Status :, TextTwo: INSTALLED {03 08 04 22 02 00 01 22}
+0x5CD56 		End If {29 02}
+0x5CD58 		Suppress If {0A 82}
+0x5CD5A 			QuestionId: 0x153E equals value in list (0x1) {14 08 3E 15 01 00 01 00}
+0x5CD62 			Text: Statement.Prompt: HDD Master Pwd Status :, TextTwo: NOT INSTALLED {03 08 04 22 02 00 02 22}
+0x5CD6A 		End If {29 02}
+0x5CD6C 		Subtitle: Statement.Prompt: , Flags: 0x0 {02 87 02 00 00 00 00}
+0x5CD73 		End {29 02}
+0x5CD75 		Gray Out If {19 82}
+0x5CD77 			QuestionId: 0x17 equals value 0x1 {12 86 17 00 01 00}
+0x5CD7D 				QuestionId: 0x153D equals value 0x0 {12 06 3D 15 00 00}
+0x5CD83 				QuestionId: 0x153B equals value 0x1 {12 06 3B 15 01 00}
+0x5CD89 				Or {16 02}
+0x5CD8B 				And {15 02}
+0x5CD8D 			End {29 02}
+0x5CD8F 			Password: Set User Password, VarStoreInfo (VarOffset/VarName): 0x12, VarStore: 0x1F, QuestionId: 0x1B, MinSize: 0x0, MaxSize 0x20 {08 91 FE 21 F7 21 1B 00 1F 00 12 00 10 00 00 20 00}
+0x5CDA0 			End {29 02}
+0x5CDA2 		End If {29 02}
+0x5CDA4 		Suppress If {0A 82}
+0x5CDA6 			QuestionId: 0x17 equals value 0x0 {12 86 17 00 00 00}
+0x5CDAC 				QuestionId: 0x16 equals value 0x1 {12 06 16 00 01 00}
+0x5CDB2 				And {15 02}
+0x5CDB4 			End {29 02}
+0x5CDB6 			Gray Out If {19 82}
+0x5CDB8 				QuestionId: 0x153C equals value 0x0 {12 86 3C 15 00 00}
+0x5CDBE 					QuestionId: 0x153B equals value 0x1 {12 06 3B 15 01 00}
+0x5CDC4 					Or {16 02}
+0x5CDC6 				End {29 02}
+0x5CDC8 				Password: Set Master Password, VarStoreInfo (VarOffset/VarName): 0x52, VarStore: 0x1F, QuestionId: 0x1C, MinSize: 0x0, MaxSize 0x20 {08 91 FF 21 00 22 1C 00 1F 00 52 00 10 00 00 20 00}
+0x5CDD9 				End {29 02}
+0x5CDDB 			End If {29 02}
+0x5CDDD 		End If {29 02}
+0x5CDDF 	End Form {29 02}
+0x5CDE1 	Form: Ai Tweaker, FormId: 0x2714 {01 86 14 27 11 24}
+0x5CDE7 		Subtitle: Statement.Prompt: Target CPU Performance Core Speed: N/A, Flags: 0x0 {02 87 3C 26 00 00 00}
+0x5CDEE 		End {29 02}
+0x5CDF0 		Subtitle: Statement.Prompt: , Flags: 0x0 {02 87 02 00 00 00 00}
+0x5CDF7 		End {29 02}
+0x5CDF9 		Suppress If {0A 82}
+0x5CDFB 			QuestionId: 0x1412 equals value 0x0 {12 86 12 14 00 00}
+0x5CE01 				QuestionId: 0x457 equals value 0x0 {12 06 57 04 00 00}
+0x5CE07 				Or {16 02}
+0x5CE09 			End {29 02}
+0x5CE0B 			Subtitle: Statement.Prompt: Target CPU Efficient Core Speed: N/A, Flags: 0x0 {02 87 41 26 00 00 00}
+0x5CE12 			End {29 02}
+0x5CE14 			Subtitle: Statement.Prompt: , Flags: 0x0 {02 87 02 00 00 00 00}
+0x5CE1B 			End {29 02}
+0x5CE1D 		End If {29 02}
+0x5CE1F 		Subtitle: Statement.Prompt: Target DRAM Speed : N/A, Flags: 0x0 {02 87 3D 26 00 00 00}
+0x5CE26 		End {29 02}
+0x5CE28 		Subtitle: Statement.Prompt: , Flags: 0x0 {02 87 02 00 00 00 00}
+0x5CE2F 		End {29 02}
+0x5CE31 		Subtitle: Statement.Prompt: Target Cache Speed : N/A, Flags: 0x0 {02 87 3E 26 00 00 00}
+0x5CE38 		End {29 02}
+0x5CE3A 		Subtitle: Statement.Prompt: , Flags: 0x0 {02 87 02 00 00 00 00}
+0x5CE41 		End {29 02}
+0x5CE43 		Suppress If {0A 82}
+0x5CE45 			QuestionId: 0x14EF equals value 0x0 {12 06 EF 14 00 00}
+0x5CE4B 			Subtitle: Statement.Prompt: Target iGPU Speed : N/A, Flags: 0x0 {02 87 3F 26 00 00 00}
+0x5CE52 			End {29 02}
+0x5CE54 		End If {29 02}
+0x5CE56 		One Of: Performance Preferences, VarStoreInfo (VarOffset/VarName): 0x159, VarStore: 0x30, QuestionId: 0x2B9C, Size: 1, Min: 0x0, Max 0x2, Step: 0x0 {05 91 30 2B 31 2B 9C 2B 30 00 59 01 14 10 00 02 00}
+0x5CE67 			One Of Option: Intel Default Settings, Value (8 bit): 0x0 (default) {09 07 32 2B 10 00 00}
+0x5CE6E 			One Of Option: ASUS Advanced OC Profile, Value (8 bit): 0x2 {09 07 34 2B 00 00 02}
+0x5CE75 		End One Of {29 02}
+0x5CE77 		Suppress If {0A 82}
+0x5CE79 			QuestionId: 0x153A equals value 0x0 {12 06 3A 15 00 00}
+0x5CE7F 			One Of: Intel Default Settings, VarStoreInfo (VarOffset/VarName): 0x15D, VarStore: 0x30, QuestionId: 0x2B9D, Size: 1, Min: 0x1, Max 0x2, Step: 0x0 {05 91 35 2B 36 2B 9D 2B 30 00 5D 01 14 10 01 02 00}
+0x5CE90 				One Of Option: Performance, Value (8 bit): 0x1 (default) {09 07 38 2B 10 00 01}
+0x5CE97 				Suppress If {0A 82}
+0x5CE99 					QuestionId: 0x1539 equals value 0x1 {12 06 39 15 01 00}
+0x5CE9F 					One Of Option: Extreme, Value (8 bit): 0x2 {09 07 39 2B 00 00 02}
+0x5CEA6 				End If {29 02}
+0x5CEA8 			End One Of {29 02}
+0x5CEAA 		End If {29 02}
+0x5CEAC 		Suppress If {0A 82}
+0x5CEAE 			QuestionId: 0x1538 equals value 0x0 {12 86 38 15 00 00}
+0x5CEB4 				64 Bit Unsigned Int: 0x0 {45 0A 00 00 00 00 00 00 00 00}
+0x5CEBE 				64 Bit Unsigned Int: 0x0 {45 0A 00 00 00 00 00 00 00 00}
+0x5CEC8 				Equal {2F 02}
+0x5CECA 				And {15 02}
+0x5CECC 				64 Bit Unsigned Int: 0x0 {45 0A 00 00 00 00 00 00 00 00}
+0x5CED6 				64 Bit Unsigned Int: 0x0 {45 0A 00 00 00 00 00 00 00 00}
+0x5CEE0 				Equal {2F 02}
+0x5CEE2 				And {15 02}
+0x5CEE4 			End {29 02}
+0x5CEE6 			One Of: Ai Overclock Tuner, VarStoreInfo (VarOffset/VarName): 0x0, VarStore: 0x30, QuestionId: 0x2B9E, Size: 1, Min: 0x0, Max 0x6, Step: 0x0 {05 91 42 26 43 26 9E 2B 30 00 00 00 14 10 00 06 00}
+0x5CEF7 				One Of Option: Auto, Value (8 bit): 0x0 (default) {09 07 44 26 10 00 00}
+0x5CEFE 				Suppress If {0A 82}
+0x5CF00 					64 Bit Unsigned Int: 0x0 {45 8A 00 00 00 00 00 00 00 00}
+0x5CF0A 						64 Bit Unsigned Int: 0x0 {45 0A 00 00 00 00 00 00 00 00}
+0x5CF14 						Equal {2F 02}
+0x5CF16 					End {29 02}
+0x5CF18 					Suppress If {0A 82}
+0x5CF1A 						QuestionId: 0x1523 equals value 0x7 {12 86 23 15 07 00}
+0x5CF20 							Not {17 02}
+0x5CF22 							64 Bit Unsigned Int: 0x0 {45 0A 00 00 00 00 00 00 00 00}
+0x5CF2C 							64 Bit Unsigned Int: 0x1 {45 0A 01 00 00 00 00 00 00 00}
+0x5CF36 							Equal {2F 02}
+0x5CF38 							And {15 02}
+0x5CF3A 						End {29 02}
+0x5CF3C 						One Of Option: Manual, Value (8 bit): 0x1 {09 07 45 26 00 00 01}
+0x5CF43 					End If {29 02}
+0x5CF45 				End If {29 02}
+0x5CF47 				Suppress If {0A 82}
+0x5CF49 					QuestionId: 0x1538 equals value 0x0 {12 06 38 15 00 00}
+0x5CF4F 					One Of Option: XMP I, Value (8 bit): 0x5 {09 07 46 26 00 00 05}
+0x5CF56 					One Of Option: XMP II, Value (8 bit): 0x6 {09 07 47 26 00 00 06}
+0x5CF5D 				End If {29 02}
+0x5CF5F 			End One Of {29 02}
+0x5CF61 		End If {29 02}
+0x5CF63 		Suppress If {0A 82}
+0x5CF65 			QuestionId: 0x2B9E equals value in list (0x5, 0x6, 0xB) {14 8C 9E 2B 03 00 05 00 06 00 0B 00}
+0x5CF71 				Not {17 02}
+0x5CF73 				QuestionId: 0x1538 equals value 0x0 {12 06 38 15 00 00}
+0x5CF79 				Or {16 02}
+0x5CF7B 			End {29 02}
+0x5CF7D 			One Of: XMP, VarStoreInfo (VarOffset/VarName): 0x16, VarStore: 0x30, QuestionId: 0x2B9F, Size: 1, Min: 0x0, Max 0x2, Step: 0x0 {05 91 58 26 5C 26 9F 2B 30 00 16 00 14 10 00 02 00}
+0x5CF8E 				Suppress If {0A 82}
+0x5CF90 					QuestionId: 0x1538 equals value in list (0x2, 0x4) {14 0A 38 15 02 00 02 00 04 00}
+0x5CF9A 					One Of Option: Profile #1, Value (8 bit): 0x0 (default) {09 07 59 26 10 00 00}
+0x5CFA1 				End If {29 02}
+0x5CFA3 				Suppress If {0A 82}
+0x5CFA5 					QuestionId: 0x1538 equals value in list (0x1, 0x4) {14 0A 38 15 02 00 01 00 04 00}
+0x5CFAF 					One Of Option: Profile #2, Value (8 bit): 0x1 {09 07 5A 26 00 00 01}
+0x5CFB6 				End If {29 02}
+0x5CFB8 				Suppress If {0A 82}
+0x5CFBA 					QuestionId: 0x1538 equals value in list (0x1, 0x2, 0x3) {14 0C 38 15 03 00 01 00 02 00 03 00}
+0x5CFC6 					One Of Option: Profile #3, Value (8 bit): 0x2 {09 07 5B 26 00 00 02}
+0x5CFCD 				End If {29 02}
+0x5CFCF 			End One Of {29 02}
+0x5CFD1 		End If {29 02}
+0x5CFD3 		Suppress If {0A 82}
+0x5CFD5 			QuestionId: 0x2B9E equals value in list (0x0) {14 88 9E 2B 01 00 00 00}
+0x5CFDD 				64 Bit Unsigned Int: 0x0 {45 0A 00 00 00 00 00 00 00 00}
+0x5CFE7 				64 Bit Unsigned Int: 0x0 {45 0A 00 00 00 00 00 00 00 00}
+0x5CFF1 				Equal {2F 02}
+0x5CFF3 				Or {16 02}
+0x5CFF5 			End {29 02}
+0x5CFF7 			Suppress If {0A 82}
+0x5CFF9 				QuestionId: 0x1523 equals value 0x7 {12 86 23 15 07 00}
+0x5CFFF 					Not {17 02}
+0x5D001 					64 Bit Unsigned Int: 0x0 {45 0A 00 00 00 00 00 00 00 00}
+0x5D00B 					64 Bit Unsigned Int: 0x1 {45 0A 01 00 00 00 00 00 00 00}
+0x5D015 					Equal {2F 02}
+0x5D017 					And {15 02}
+0x5D019 				End {29 02}
+0x5D01B 				String: BCLK Frequency, VarStoreInfo (VarOffset/VarName): 0x4D1, VarStore: 0x30, QuestionId: 0x2BA2, MinSize: 0x
